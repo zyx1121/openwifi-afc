@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "openwifi-afc"
+version = "0.1.0"
+description = ""
+authors = ["Loki <yongxiang.zhan@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+tomli = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

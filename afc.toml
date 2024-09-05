@@ -1,0 +1,26 @@
+[connection]
+base_url = 'https://140.118.123.217/fbrat/'         # AFC server base url
+method_url = 'ap-afc/availableSpectrumInquirySec'   # AFC method url
+login_url = 'user/sign-in'                          # AFC login url
+timeout = 10                                        # AFC request timeout
+
+[account]
+username = 'admin@afc.com'                          # AFC username
+password = 'openafc'                                # AFC password
+
+[ap]
+serialNumber = 'TestSerialNumber'                   # AFC AP serial number
+rulesetId = 'US_47_CFR_PART_15_SUBPART_E'           # AFC AP ruleset id
+certificationId = 'TestCertificationId'             # AFC AP certification id
+
+latitude = 25.0119                                  # AFC AP latitude
+longitude = 121.5414                                # AFC AP longitude
+majorAxis = 10                                      # AFC AP major axis
+minorAxis = 10                                      # AFC AP minor axis
+orientation = 0                                     # AFC AP orientation
+
+height = 100                                        # AFC AP height
+heightType = "AGL"                                  # AFC AP height type
+verticalUncertainty = 5                             # AFC AP vertical uncertainty
+
+indoorDeployment = 0                                # AFC AP indoor deployment
